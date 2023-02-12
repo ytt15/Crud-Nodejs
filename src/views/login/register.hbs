@@ -18,5 +18,8 @@ shadow-lg text-gray-800">
         <button type="submit" class="rounded-md bg-green-500 w-full text-lg text-white
         font-semibold p-2 my-3 hover:bg-green-600 focus:bg-green-700">Registrarme</button>
 
+        {{#if error}}
+            <p>{{error}}</p>
+        {{/if}}
     </form>
 </div>
